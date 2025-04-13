@@ -16,6 +16,9 @@ allprojects {
     }
 }
 
-task clean(type: Delete) {
-    delete rootProject.buildDir
+def task = task clean(type: Delete) {
+
+    final def var = delete rootProject.buildDir
+    var
 }
+task
