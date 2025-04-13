@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Döviz ve Namaz Widget</string>
+    <string name="widget_description">Döviz kurları ve namaz vakitleri widget</string>
+    <string name="currency_title">Döviz Kurları</string>
+    <string name="prayer_title">Namaz Vakitleri</string>
+    <string name="next_prayer">Sonraki Namaz</string>
+    <string name="remaining_time">Kalan Süre</string>
+    <string name="configure">Ayarla</string>
+    <string name="refresh">Yenile</string>
+    <string name="loading">Yükleniyor...</string>
+    <string name="error_loading">Yüklenirken hata oluştu</string>
+</resources>

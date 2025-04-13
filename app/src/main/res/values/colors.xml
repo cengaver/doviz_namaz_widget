@@ -1,0 +1,11 @@
+<resources>
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#388E3C</color>
+    <color name="colorAccent">#2196F3</color>
+    <color name="widgetBackground">#FFFFFF</color>
+    <color name="widgetTextPrimary">#212121</color>
+    <color name="widgetTextSecondary">#757575</color>
+    <color name="currencySection">#E8F5E9</color>
+    <color name="prayerSection">#E3F2FD</color>
+    <color name="remainingTimeHighlight">#FF5722</color>
+</resources>
