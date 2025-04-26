@@ -10,15 +10,10 @@ buildscript {
 
 allprojects {
     repositories {
-        google()
-        mavenCentral()
-        maven { url "https://jitpack.io" }
+        // Repositories are now managed in settings.gradle
     }
 }
 
-def task = task clean(type: Delete) {
-
-    final def var = delete rootProject.buildDir
-    var
+task clean(type: Delete) {
+    delete rootProject.buildDir
 }
-task

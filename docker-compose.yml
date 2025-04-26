@@ -1,9 +1,6 @@
-# docker-compose.yml dosyası oluşturun
 version: '3'
 services:
-  builder:
-    image: gradle:jdk17
-    working_dir: /app
-    volumes:
-      - ./app:/app
-    command: gradle assembleDebug
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile

@@ -1,0 +1,19 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal() // Add this line if needed for plugins
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url "https://jitpack.io" }
+    }
+}
+rootProject.name = "doviz_namaz_widget" // Add a root project name if you don't have any module.
+
+// include ':app' //Example if you have an app module, uncomment and adjust it
+// include ':core' //Example if you have a core module, uncomment and adjust it
